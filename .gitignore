@@ -1,0 +1,8 @@
+.exe
+.o
+.zip
+.rar
+.vscode
+build
+bin
+generated
