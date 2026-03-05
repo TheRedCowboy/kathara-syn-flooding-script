@@ -157,7 +157,7 @@ tcpdump -i any "tcp[tcpflags] & tcp-syn != 0"
 Execute the binary from the attacker node (PC1). The C engine will start sending raw SYN packets at the maximum possible rate, bypasssing the standard TCP stack to optimize performance.
 
 ```bash
-./syn_flood DEST_IP DEST_PORT
+./synfld DEST_IP DEST_PORT
 ```
 
 <br>
